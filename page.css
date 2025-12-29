@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: candara;
+    color: #ffffff;
+}
+.border{
+    border: 3px solid transparent;
+}
+.border:hover{
+     border: 1.5px solid white;
+}
+  /* _________________________ header part 1____________________________ */
+.navbar{
+    height:10vh;
+    background-color: #0f1111;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.add_icon{
+    display: flex;
+}
+.add1{
+    font-size: 13px;
+    color: #cccccc; 
+    margin-left: 19px;
+}
+.add2{
+    font-size: 15px;
+}
+.nav_searchbar{
+    width: 520px;
+    height: 40px;
+    display: flex;
+}
+.nav_searchbar button{
+    background-color: #ffbf69;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    width: 45px;
+    border: none;
+}
+.nav_searchbar select{
+    background-color: #e6e6e6;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+    width: 52px;
+    color: #0f1111;
+    padding-left: 10px;
+    font-size: 13px;
+}
+.nav_searchbar option{
+    background-color: white;
+    color: black;
+}
+.nav_searchbar input{
+    width: 455px;
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.language{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.language select{
+    background-color: transparent;
+    padding-left: 5px;
+    border: none;
+    height: 18px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.language option{
+    background-color: white;
+    color: black;
+}
+.signin p{
+    font-size: 13px;
+    padding-left: 3px;
+}
+.signin select{
+    font-size: 15px;
+    background-color:transparent;
+    border: none;
+}
+#navlast1{
+    font-size: 13px;
+}
+#navlast2{
+    font-size: 15px;
+}
+.cart{
+    display: flex;
+    height: 15px;
+}
+.cart i{
+    color: white;
+    transform: scale(1.9);
+}
+.cart p{
+    padding-left: 7px;
+}
+
+/* _________________________ header part 2____________________________ */
+
+.head2{
+    background-color: #232f3e;
+    height: 40px;
+    display: flex;
+    align-items: center;
+   
+}
+.head2part1{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: bolder;
+}
+.head2part1 p, select{
+    padding-left: 10px;
+}
+.head2part2{
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: bolder;
+   
+}
+.great_indian_festival{
+   padding: 10px;
+}
+#live{
+    margin-left: 70px;
+}
+.head2 select{
+    border: none;
+    background: transparent;
+    padding-left: 5x;
+}
+.allmenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+}
+/* _________________________ main section ____________________________ */
+main{
+    height: 1685px;
+    background-color: #e9ecef;
+}
+.main_section{
+    height: 730px;
+    background-image: url('background2.png');
+    background-size: cover;
+    background-color: yellow;
+}
+.boxlayer1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 300px;
+
+}
+.box1{
+    width: 280px;
+    height: 420px;
+    background-color: #ffffff;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.box1 h2{
+    color: #0f1111;
+}
+.box1 a{
+    color: #2162a1;
+}
+/* _________________________ phones ____________________________ */
+.phone{
+    height: 420px;
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.phonebox{
+    height: 378px;
+    width: 95vw;
+    background-color:white;
+    margin: 10px;
+}
+.phoneflex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.offer{
+    display: flex;
+}
+.price{
+    display: flex;
+}
+.phone1 p{
+    color: black;
+}
+#offerlabel{
+    height: 15px;
+    width: 43px;
+    background-color: #cc0c39;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 6px;
+    font-weight: bolder;
+}
+#offerlable2{
+    color: #cc0c39;
+    font-size: 12px;
+    font-weight: bolder;
+    padding-left: 8px;
+    margin-top: 5px;
+}
+#price1{
+    font-size: 18px;
+    color: #0f1111;
+    font-weight: 600;
+    padding-right: 4px;
+}
+#price2{
+    font-size: 12px;
+    color: #565959;
+    text-decoration: line-through;
+    margin-top: 5px;
+}
+#phone_name{
+    font-size: 16px;
+    color: #0f1111;
+    margin-top: 8px;
+}
+
+
+
+
+
+.boxlayer2{
+    height: 480px;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: space-around;
+}
+.box5{
+    width: 280px;
+    height: 420px;
+    background-color: #ffffff;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 10px;
+}
+.box5 h2{
+    color: #0f1111;
+}
+.box5 a{
+    color: #2162a1;
+}
+.part1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+.text{
+    display: flex;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.text p{
+    color: black;
+}
+#one{
+    padding-right: 90px;
+}
+/* _________________________ Footer____________________________ */
+
+.lastsignin{
+    height: 164px;
+    background-color: #ffffff;
+    border: none;
+   
+}
+.lastsignin h2{
+    padding-top: 25px;
+    text-align: center;
+    color: #0f1111;
+    font-weight: 900;
+}
+.lastsignin p{
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 14px;
+     color: #0f1111;
+}
+.lastsignin a{
+    color: #2162a1;
+}
+
+
+.lastsignin button{
+    font-size: 14px;
+    height: 33px;
+    width: 119px;
+    color: #0f1111;
+    background-color: yellow;
+    border-radius: 15px;
+    border: none;
+    margin-left: 612px;
+    margin-top: 10px;
+}
+
+.backtotop{
+   height: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: #37475a;
+}
+.backtotop a{
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.lastlist{
+    height: 240px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232f3e;
+}
+#size{
+    font-size: 16px;
+    font-weight: bolder;
+    padding-bottom: 8px;
+}
+.lastlist li{
+    color: #dddddd;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 8px;
+}
+.lastam_last{
+    height: 60px;
+    background-color: #131a22;
+}
+.lastam_last pre{
+    text-align: center;
+    color: #dddddd;
+    font-size: 12px;
+}
+#uff{
+    padding-top: 15px;
+}
